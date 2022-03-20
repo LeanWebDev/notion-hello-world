@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "notion-hello-world"
+version = "0.1.0"
+description = ""
+authors = ["Samir Azzouz <s.azzouz97@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+notion-client = "^0.9.0"
+python-dotenv = "^0.19.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
